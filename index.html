@@ -1,53 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="es-ES">
+<head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="https://i.imgur.com/sFo732c.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vellaperfumeria</title>
+    <link rel="icon" type="image/png" href="https://vellaperfumeria.com/wp-content/uploads/2024/06/vellaperfumeralogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Vellaperfumeria Store | Perfumes y Cosmética Oficial</title>
+
+    <!-- SEO y Metadatos para Venta -->
+    <meta name="description" content="Compra tus perfumes favoritos, maquillaje Giordani Gold y tratamiento facial en la App Oficial de Vellaperfumeria. Envíos gratis +35€." />
+    <meta name="theme-color" content="#d946ef">
+
+    <!-- Open Graph / WhatsApp Preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vellaperfumeria.store/" />
+    <meta property="og:title" content="Vellaperfumeria Store - App Oficial" />
+    <meta property="og:description" content="Entra y descubre ofertas exclusivas en perfumes y maquillaje. Pago seguro con Google Play y Tarjeta." />
+    <meta property="og:image" content="https://vellaperfumeria.com/wp-content/uploads/2024/06/vellaperfumeralogo.png" />
+
+    <!-- Twitter Card -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Vellaperfumeria Store" />
+    <meta property="twitter:description" content="Tu tienda de belleza de confianza. Envíos rápidos y muestras gratis." />
+    <meta property="twitter:image" content="https://vellaperfumeria.com/wp-content/uploads/2024/06/vellaperfumeralogo.png" />
+    
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <style>
-      body {
-        font-family: 'Inter', sans-serif;
-      }
-      h1, h2, h3, h4, h5, h6 {
-        font-family: 'Raleway', sans-serif;
-      }
-      @keyframes shake {
-        10%, 90% {
-          transform: translate3d(-1px, 0, 0);
-        }
-        20%, 80% {
-          transform: translate3d(2px, 0, 0);
-        }
-        30%, 50%, 70% {
-          transform: translate3d(-4px, 0, 0);
-        }
-        40%, 60% {
-          transform: translate3d(4px, 0, 0);
-        }
-      }
-      .shake {
-        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-      }
-    </style>
-  <script type="importmap">
+<script type="importmap">
 {
   "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0"
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
   }
 }
 </script>
 <link rel="stylesheet" href="/index.css">
 </head>
-  <body>
+<body>
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
-  </body>
+</body>
 </html>
