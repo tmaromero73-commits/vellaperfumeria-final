@@ -9,3 +9,5 @@ export default defineConfig({
   // como en la subcarpeta (bellaperfumeria.store/tienda/) sin romperse.
   base: './', 
 })
+
+
